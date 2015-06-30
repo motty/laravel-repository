@@ -1,0 +1,24 @@
+{
+    "name": "motty/laravel-repository",
+    "description": "Laravel - Repository Design Pattern Implementation",
+    "authors": [
+        {
+            "name": "Israel Sotomayor",
+            "email": "israel@motty.io",
+            "role" : "Developer"
+        }
+    ],
+    "keywords": ["pattern", "design pattern", "repository", "repositories", "laravel"],
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.1.0",
+        "illuminate/database": "~5.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Motty\\Laravel\\Repository\\": "src/"
+        }
+    },
+    "minimum-stability": "alpha"
+}
