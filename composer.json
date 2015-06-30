@@ -9,6 +9,7 @@
         }
     ],
     "keywords": ["pattern", "design pattern", "repository", "repositories", "laravel"],
+    "license": "MIT",
     "type": "library",
     "require": {
         "php": ">=5.5.9",
